@@ -1,14 +1,13 @@
-# Binaries
-*.exe
+# Скомпилированные промежуточные файлы
 *.o
 *.obj
 *.dll
 *.so
 *.dylib
 
-# Build artifacts
-netshield.exe
-netshield
+# Игнорировать все exe, КРОМЕ готового исполняемого файла
+*.exe
+!netshield.exe
 
 # IDE
 .vscode/

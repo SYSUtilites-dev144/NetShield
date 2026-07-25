@@ -1,0 +1,27 @@
+# Binaries
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+netshield.exe
+netshield
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+netshield_log.txt
